@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 50%;
+    width: 100%;
+    background-color: bisque;
+}
+
+#nav h1{
+    font-size: 100px;
+    line-height: 80px;
+    padding: 50px;
+    letter-spacing: -5px;
+}
+
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+#nav h3{
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+#nav h4{
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    margin-right: 30px;
+}
+
+#menu h1{
+    padding: 10px;
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+#hero{
+    height: 95%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1682685795557-976f03aca7b2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8bGFuZHNjYXBlfGVufDB8fDB8fHww);
+}
+
+#about{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#about p{
+    height: 100%;
+    width: 60%;
+    font-size: 60px;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+
+#about1{
+    height: 100%;
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#about1 h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#section{
+    height: 70%;
+    width: 100%;
+    background-color: antiquewhite;
+    border-top: 2px solid #000;
+    padding: 20px;
+    display: flex;
+}
+
+#section1 {
+    height: 100%;
+    width: 35%;
+    background-color: bisque;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+
+#section1 h1{
+    font-size: 25px;
+}
+
+#section2{
+    height: 100%;
+    padding: 20px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.sec1:nth-child(1){
+    border-bottom: 2px solid black;
+}
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.s1,.s3{
+    border-right: 2px solid black;
+}
+
+.s2,.s4{
+    padding-left: 20px;
+}

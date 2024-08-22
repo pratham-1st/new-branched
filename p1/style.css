@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+  
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(231, 228, 228);
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-1{
+    margin: 10px 30px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#nav-1 h1{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#nav-1 i{
+    color: black;
+    margin: 10px 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#nav-3{
+    margin: 10px 20px;
+    font-size: 12px;
+}
+
+#nav-3 button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#nav-3 #si{
+    background-color: rgb(231, 171, 93);
+    color: white;
+    border-radius: none;
+}
+
+#home{
+    height: 470px;
+    width: 100%;
+    color: black;
+}
+
+#home h1{
+    font-size: 180px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#card img{
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+#card1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+#card2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+#card3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#card4{
+    transform: translate(-50%, -50%);
+}
+
+#home h2{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-weight: 200;
+}
+
+#social{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-size: 25px;
+    cursor: pointer;
+}
