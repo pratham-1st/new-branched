@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2{
+   
+    font-size: 35px;
+    font-weight: 800;
+}
+
+nav .nav-elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 20px 30px;
+}
+
+nav button{
+    font-size: 15px;
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+nav #logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+    gap: 8px;
+}
+
+nav i{
+    font-size: 30px;
+    display: inline-block;
+    rotate: 35;
+}
+
+#nav-bottom {
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+
+#bottom-1{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px 50px;
+}
+
+#bottom-2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(33, 100, 122);
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRxYzX8O-AdX9hG9li98722CTC3VDH8dS-zUG3nNbJ15Ahkr3QS);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+
+#bottom-1 h1{
+    font-size: 70px;
+    line-height: 1;
+}
+
+#bottom-1 p{
+    font-size: 18px;
+    padding: 20px 90px 20px 0px;
+}
+
+#bottom-1 button{
+    font-size: 15px;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+}
